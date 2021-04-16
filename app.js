@@ -15,7 +15,7 @@ app.use(express.static("public"));
 
 app.get("/", (req, res) => {
   res.render("home", {
-    nombre: "Julio",
+    nombre: "Julio Cesar Conrado Gonzalez",
     titulo: "DESARROLLADOR",
   });
 });
