@@ -23,7 +23,7 @@ app.get("/", (req, res) => {
 app.get("/elements", (req, res) => {
   res.render("elements", {
     nombre: "Julio",
-    titulo: "estudiante",
+    titulo: "DESARROLLADOR",
   });
 });
 
